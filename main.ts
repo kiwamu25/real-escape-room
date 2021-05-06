@@ -43,6 +43,8 @@ input.onButtonPressed(Button.B, function () {
                 Reset()
             }
         } else {
+            basic.clearScreen()
+            basic.showString("OK")
             basic.showString("" + (NowCnt + 1))
             icons[count].showImage(0)
         }
